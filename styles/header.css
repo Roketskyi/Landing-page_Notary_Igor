@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@media only screen and (max-width: 768px) {    
+    .header-info {
+        font-size: calc(0.15rem + 3vw);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header-btn:hover {
+        background-color: rgb(0, 16, 109);
+    }
+    
+    .header-info {
+        font-size: 1rem;
+    }
+}
+
+
+header {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    background-color: #ebebeb;
+    padding: 21px 0px 21px 0px;
+    text-align: center;
+}
+
+.header-record {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-telephone-photo {
+    padding-right: 6px;
+}
+

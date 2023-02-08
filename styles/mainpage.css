@@ -1,24 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-/* .background-image {
-    background: url("../images/background/background.jpg") center;
-    position: absolute;
-    background-size: 100% 100%;
-      left: 0px;
-      top: 0px;
-      z-index: -1;
-      width: 100%;
-      height: 349%;
-      -webkit-filter: blur(5px);
-      filter: opacity(0.2);
-} */
-
 body {
-    /* background-image: url('../images/background/background.jpg'); */
     background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url('../images/background/background.jpg');
     background-size: cover;
     background-attachment: fixed;
-    /* background-color: rgba(255, 0, 0, 0.1); */
 
     background-position: center;
     height: 100vh;
@@ -35,7 +20,7 @@ body {
 
     .container-certificate {
         font-size: 1.05rem;
-        padding: 4rem 2rem;
+        padding: 1rem 2rem;
     }
 
     .container-notarial-acts-buttons {
@@ -130,7 +115,7 @@ body {
 
     .container-certificate {
         font-size: 1.05rem;
-        padding: 4rem 3rem;
+        padding: 2rem 3rem;
     }
 
     .container-notarial-acts-buttons {
@@ -176,7 +161,7 @@ body {
 
     .container-certificate {
         font-size: 1.05rem;
-        padding: 4rem 5rem;
+        padding: 2rem 5rem;
     }
 
     .container-notarial-acts-buttons {
@@ -223,7 +208,7 @@ body {
 
     .container-certificate {
         font-size: 1.05rem;
-        padding: 4rem 1rem;
+        padding: 2rem 1rem;
     }
     
     .container-notarial-acts-buttons {
@@ -259,6 +244,48 @@ body {
 
 }
 
+.viber {
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 4px 2px 14px 0 #00000085;
+}
+
+#divViber {
+    display: flex;
+    justify-content: right;
+    bottom: 0;
+    width: 100%;
+    margin: 0 -25px 30px;
+    position: fixed;
+    transform: translate(0%, 20%);
+    align-items: center;
+}
+
+.viber-p {
+    background-color: #fafafa;
+    padding: 1vh 1vh;
+    border-radius: 10px;
+    box-shadow: 4px 2px 14px 0 #00000085;
+    transform: translate(-10%, 0%);
+}
+
+#triangle {
+    position: fixed;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 14px solid white;
+    rotate: 90deg;
+    transform: translate(0%, 530%);
+}
+
+.viber:hover {
+    opacity: 0.95;
+}
+
+.container-certificate {
+    text-align: center;
+}
+
 .container-list-more-info p:first-child {
     font-size: calc(1rem + 0.15vw);
     padding-top: 2rem;
@@ -273,7 +300,6 @@ body {
 .container-list:last-child p {
     font-size: calc(1rem + 0.15vw);
     padding-top: 1rem;
-    padding-bottom: 10rem;
 }
 
 .container {
@@ -290,7 +316,7 @@ body {
 .container-certificate {
     background-color: #fff;
     border-top: rgb(214, 214, 214) solid 0.1rem;
-    margin: 5rem 3rem;
+    margin: 2rem 2rem;
 }
 
 .container-notarial-acts {

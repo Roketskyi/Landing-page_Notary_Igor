@@ -244,20 +244,41 @@ body {
 
 }
 
-.viber {
+.circle {
+    width: 62px;
+    height: 62px;
     border-radius: 50%;
+    background-color: rgb(236, 130, 0);
+    /* background-color: rgb(255, 181, 53); */
+}
+
+.viber {
+    
     cursor: pointer;
-    box-shadow: 4px 2px 14px 0 #00000085;
+    /* box-shadow: 4px 2px 14px 0 #00000085; */
+}
+
+.whatsapp {
+    
+    cursor: pointer;
+}
+
+.telegram {
+    
+    cursor: pointer;
 }
 
 #divViber {
     display: flex;
-    justify-content: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
     bottom: 0;
     width: 100%;
     margin: 0 -25px 30px;
     position: fixed;
-    transform: translate(0%, 20%);
+    transform: translate(0%, 00%);
     align-items: center;
 }
 

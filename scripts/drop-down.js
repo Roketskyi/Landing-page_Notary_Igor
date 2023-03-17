@@ -6,6 +6,7 @@ const viberButton = document.querySelector('.viber');
 let buttonsVisible = true;
 
 circleButton.addEventListener('click', () => {
+    // alert('s');
   if (buttonsVisible) {
     whatsappButton.style.display = 'none';
     telegramButton.style.display = 'none';

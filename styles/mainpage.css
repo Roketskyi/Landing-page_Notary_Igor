@@ -249,36 +249,22 @@ body {
     height: 62px;
     border-radius: 50%;
     background-color: rgb(236, 130, 0);
-    /* background-color: rgb(255, 181, 53); */
-}
 
-.viber {
-    
-    cursor: pointer;
     /* box-shadow: 4px 2px 14px 0 #00000085; */
-}
 
-.whatsapp {
-    
-    cursor: pointer;
-}
-
-.telegram {
-    
     cursor: pointer;
 }
 
 #divViber {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     justify-content: flex-end;
     align-content: flex-end;
     bottom: 0;
     width: 100%;
     margin: 0 -25px 30px;
     position: fixed;
-    transform: translate(0%, 00%);
+    transform: translate(0%, 0%);
     align-items: center;
 }
 

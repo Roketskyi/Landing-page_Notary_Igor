@@ -265,6 +265,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-size: 32px;
     font-weight: bold;
+
+    user-select: none;
 }
 
 #divViber {

@@ -275,7 +275,7 @@ body {
     color: #fff;
 
     font-family: 'Courier New', Courier, monospace;
-    font-size: 32px;
+    font-size: 42px;
     font-weight: bold;
 
     user-select: none;
@@ -293,25 +293,7 @@ body {
     transform: translate(0%, 0%);
     align-items: center;
 }
-
-.viber-p {
-    background-color: #fafafa;
-    padding: 1vh 1vh;
-    border-radius: 10px;
-    box-shadow: 4px 2px 14px 0 #00000085;
-    transform: translate(470%, -75%);
-}
-
-#triangle {
-    position: fixed;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-bottom: 14px solid white;
-    rotate: 90deg;
-    right: 0;
-    transform: translate(-250%, 480%);
-}
-
+іі
 .viber:hover,
 .whatsapp:hover,
 .telegram:hover {

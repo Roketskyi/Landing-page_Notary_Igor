@@ -312,8 +312,10 @@ body {
     transform: translate(-250%, 480%);
 }
 
-.viber:hover {
-    opacity: 0.95;
+.viber:hover,
+.whatsapp:hover,
+.telegram:hover {
+    opacity: 0.8;
 }
 
 .container-certificate {

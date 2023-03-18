@@ -253,6 +253,20 @@ body {
     cursor: pointer;
 }
 
+.circle__plus,
+.circle__minus {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    color: #fff;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+    font-weight: bold;
+}
+
 #divViber {
     display: flex;
     flex-direction: column;

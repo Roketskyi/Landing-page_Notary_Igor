@@ -244,12 +244,11 @@ body {
 
 }
 
-.circle img {
-    width: 64px;
-    height: 64px;
+.circle {
+    width: 62px;
+    height: 62px;
     border-radius: 50%;
-
-    /* box-shadow: 4px 2px 14px 0 #00000085; */
+    background-color: rgb(236, 130, 0);
 
     cursor: pointer;
 }

@@ -196,7 +196,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1200) {
+@media screen and (min-width: 1200px) {
     .container-notarial-acts-title {
         padding: 0 25rem;
     }
@@ -245,12 +245,24 @@ body {
 }
 
 .circle {
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
-    background-color: rgb(236, 130, 0);
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  background-color: rgb(236, 130, 0);
+  cursor: pointer;
+  animation: pulse 2s linear infinite;
+}
 
-    cursor: pointer;
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(0.95);
+  }
 }
 
 .circle__plus,
@@ -287,7 +299,7 @@ body {
     padding: 1vh 1vh;
     border-radius: 10px;
     box-shadow: 4px 2px 14px 0 #00000085;
-    transform: translate(-10%, 0%);
+    transform: translate(470%, -75%);
 }
 
 #triangle {
@@ -296,7 +308,8 @@ body {
     border-right: 8px solid transparent;
     border-bottom: 14px solid white;
     rotate: 90deg;
-    transform: translate(0%, 530%);
+    right: 0;
+    transform: translate(-250%, 480%);
 }
 
 .viber:hover {

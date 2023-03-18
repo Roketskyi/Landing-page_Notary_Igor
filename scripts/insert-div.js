@@ -1,10 +1,10 @@
-// let div = document.createElement('div');
-// div.innerHTML = "<a href='#contacts' class='header-btn box'><strong>Безкоштовна консультація</strong></a>";
-// document.documentElement.clientWidth > 576 ? divv.append(div) : phone.append(div);
+let div = document.createElement('div');
+div.innerHTML = "<a href='#contacts' class='header-btn box'><strong>Безкоштовна консультація</strong></a>";
+document.documentElement.clientWidth > 576 ? divv.append(div) : phone.append(div);
 
 // let p = document.createElement('p');
 // p.className = "viber-p"
-// p.innerHTML = "Задай питання у Viber";
+// p.innerHTML = "Задай питання";
 // divViber.prepend(p)
 
 // let messageViber = document.querySelector('.viber');
